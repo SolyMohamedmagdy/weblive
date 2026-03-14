@@ -13,7 +13,7 @@ export default function Courses() {
               <h2 className="text-xl font-semibold mb-2">Course ABC</h2>
               <div>
                 <Image
-                  src="/abc.jpg"
+                  src="./abc.jpg"
                   alt="the author"
                   width={150}
                   height={150}
@@ -30,7 +30,7 @@ export default function Courses() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-xl font-semibold mb-2">Course joy</h2>
               <div>
-                <Image src="/joy.png" alt="joy" width={150} height={150} />
+                <Image src="./joy.png" alt="joy" width={150} height={150} />
               </div>
               <p className="text-gray-700 mb-4">
                 Brief description of the course content and what students can
@@ -44,7 +44,7 @@ export default function Courses() {
               <h2 className="text-xl font-semibold mb-2">Course 123</h2>
               <div>
                 <Image
-                  src="/123.png"
+                  src="./123.png"
                   alt="Author123"
                   width={150}
                   height={150}
