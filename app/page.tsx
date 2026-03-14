@@ -18,7 +18,7 @@ export default function Home() {
         </div>
 
         <div className="relative right-0 top-0 sm:w-1/2 h-160">
-          <Image src="/soly.jpg" alt="Picture of the author" fill={true} />
+          <Image src="./soly.jpg" alt="Picture of the author" fill={true} />
         </div>
       </div>
       <section>
