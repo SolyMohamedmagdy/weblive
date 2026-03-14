@@ -38,6 +38,26 @@ function MobileButtonHeader() {
             <Link href="/courses" className="link p-4" onClick={handleClick}>
               Courses
             </Link>
+            <div>
+              <Link href="/login" onClick={handleClick}>
+                {" "}
+                <button
+                  type="button"
+                  className="bg-teal-700 py-2 w-20 text-white hover:cursor-pointer hover:bg-teal-600 transition"
+                >
+                  Login
+                </button>{" "}
+              </Link>
+              <Link href="/signup" onClick={handleClick}>
+                {" "}
+                <button
+                  type="button"
+                  className=" outline-2 outline-black py-2 w-20 text-black hover:cursor-pointer hover:bg-white transition"
+                >
+                  Sign up
+                </button>
+              </Link>
+            </div>
           </div>
         )
       }
